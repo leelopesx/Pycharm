@@ -1,5 +1,4 @@
 #Exercicio 01
-
 velocidade = int(input("Digite a velocidade do seu carro:"))
 
 if velocidade > 80:
@@ -9,7 +8,6 @@ else:
     print("Você não foi multado!")
 
 #Exercicio 02
-
 num1 = float(input("Digite o primeiro número:"))
 num2 = float(input("Digite o segundo número:"))
 num3 = float(input("Digite o terceiro número:"))

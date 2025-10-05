@@ -1,10 +1,10 @@
+#Aprendendo a criar listas e utilizar o While
 nome_alunos = []
-
-while true:
+while True:
     nome = input("Nome (aperte enter para sair):")
     if nome = "":
         break
-    nome_aluno.append(nome)
+    nome_alunos.append(nome)
 
 nome_alunos.sort
 

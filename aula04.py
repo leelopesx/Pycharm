@@ -28,7 +28,7 @@ cursos = {"engenharia de software": ["R$2680.00" , "4 anos", 5 ],
 
 while True:
     curso = input("Digite o curso desejado (ou fim para encerrar):").lower()  #Lower - transforma tudo em minusculo
-
+    print(cursos[curso][0])
     if curso in cursos:
         custo = cursos[curso][0]
         duracao = cursos[curso][1]

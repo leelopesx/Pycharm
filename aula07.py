@@ -10,9 +10,12 @@ print(f"Soma = {subtracao(a,b)}")
 print(f"Soma = {multiplicacao(a,b)}")
 print(f"Soma = {divisao(a,b)}")
 
+print(barra(80, "."))
+
 print(par_ou_impar(2))
 print(par_ou_impar(3))
 
-print(maior(2,4))
+#Utiliza o * para "desempacotar" a lista
+L = [5, 6]
+print(soma(*L))
 
-a = float("Digite o tamanho da base")

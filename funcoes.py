@@ -26,5 +26,6 @@ def maior(a,b):
     else:
         return b
 
-def triangulo(a,b):
-    return a*b/2
+#Parametros opcionais, e caso for combinar com parâmetros obrigatórios, os opcionais devem ser os últimos
+def barra(n=40,caractere="*"):
+    return n*caractere

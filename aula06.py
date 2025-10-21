@@ -58,8 +58,3 @@ print(frase)
 print("Olá mundo", end="\n\n") #2 linhas
 print("Oi")
 
-#Separação
-print('Hello', "World")
-print('Hello', "World", sep=' ')
-print('Hello', "World", sep=',')
-print('Hello', "World", sep="," , end="!")
